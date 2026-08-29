@@ -1,0 +1,19 @@
+{
+    "latent_dim": 65,
+    "hidden1": 376,
+    "hidden2": 248,
+    "ae_epochs": 105,
+    "batch_size": 512,
+    "window_size": 17,
+    "threshold_anomaly": 0.539263607298306,
+    "margin_ratio": 0.4819439642248151,
+    "n_estimators": 415,
+    "max_depth": 6,
+    "learning_rate": 0.03189096228148715,
+    "subsample": 0.884399833942919,
+    "colsample_bytree": 0.8872212111510549,
+    "min_child_weight": 14,
+    "gamma": 0.24970595577528443,
+    "smote_k": 4,
+    "smote_ratio": 0.9233685351076679
+}
