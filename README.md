@@ -6,7 +6,11 @@ Ce code accompagne le mémoire de maîtrise de Jean Frideland Delphin et l'artic
 
 ## Contenu
 
-`MeNU_Plus_ALFA_public_version_finale.ipynb` contient l'ensemble du pipeline : chargement et nettoyage du dataset ALFA, sélection de variables, entraînement de l'autoencodeur, optimisation XGBoost, agrégation temporelle, ainsi que l'évaluation comparative face à dix approches de référence (Random Forest, régression logistique, LightGBM, etc.).
+- `MeNU_Plus_ALFA_public_version_finale.ipynb` — pipeline complet : chargement et nettoyage du dataset ALFA, sélection de variables, entraînement de l'autoencodeur, optimisation XGBoost, agrégation temporelle, ainsi que l'évaluation comparative face à dix approches de référence (Random Forest, régression logistique, LightGBM, etc.).
+- `best_params_menu_plus.json` — hyperparamètres retenus après optimisation Optuna.
+- `results_menu_plus.csv` — résultats par fold (tableau comparatif des approches, validation croisée GroupKFold).
+- `results_menu_plus_mf.csv` — résultats par fold, détaillés par type de panne (Engine, Aileron, Rudder, Elevator).
+- `requirements.txt` — dépendances Python nécessaires à l'exécution du pipeline.
 
 ## Résultats (validation croisée GroupKFold, 5 folds)
 
